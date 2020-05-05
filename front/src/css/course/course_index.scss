@@ -1,0 +1,77 @@
+@import "../common/init.scss";
+@import "../common/const.scss";
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer.scss";
+@import "../course/course_nav.scss";
+.main{
+  margin-top: 64px;
+
+  .wrapper{
+    .course-list{
+      margin-top: 20px;
+      // flex布局内容
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li{
+        $courseItemHeight: 280px;
+        $thumbnailHeight: 158px;
+        width: 278px;
+        margin-bottom: 20px;
+        background: #fff;
+        height: $courseItemHeight;
+        .thumbnail-group{
+          width: 100%;
+          height: $thumbnailHeight;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .course-info{
+          padding: 16px;
+          width: 100%;
+          box-sizing: border-box;
+          height: $courseItemHeight - $thumbnailHeight;
+          position: relative;
+          .title{
+            color: $mainFontColor;
+          }
+          .author{
+            margin-top: 10px;
+            color: $assistFontColor;
+            font-size: 14px;
+          }
+          .price-group{
+            position: absolute;
+            left: 16px;
+            right: 16px;
+            bottom: 16px;
+            text-align: right;
+            .free{
+              color: rgb(126,211,33);
+            }
+            .pay{
+              color: rgb(245,74,74);
+            }
+          }
+        }
+        .blank{
+          width: 100%;
+          height: 100%;
+          background: #f2f2f2;
+        }
+        a{
+          display: inline-block;
+          width: 280px;
+          height: $courseItemHeight;
+          &:hover{
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+          }
+        }
+      }
+    }
+  }
+}

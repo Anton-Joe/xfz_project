@@ -1,0 +1,61 @@
+@import '../common/init.scss';
+@import '../common/const.scss';
+@import "../common/header.scss";
+@import "../common/footer.scss";
+@import "../common/body.scss";
+
+
+@mixin new_list(){
+  li{
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #eeeeee;
+    .thumbnail-group{
+      float: left;
+      width: 226px;
+      height: 162px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .news-group{
+      width: 504px;
+      height: 162px;
+      float: right;
+      position: relative;
+      .title{
+        font-size: 22px;
+        a{
+          color: #212121;
+          &:hover{
+            color: $themeColor;
+          }
+        }
+      }
+      .desc{
+        color: #878787;
+        font-size: 14px;
+      }
+      .more{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+        color: #878787;
+        .category{
+          color: $themeColor;
+        }
+        .pub-time{
+          float: right;
+        }
+        .author{
+          float: right;
+          margin-right: 20px;
+        }
+
+      }
+    }
+  }
+}

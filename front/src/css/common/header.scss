@@ -1,0 +1,72 @@
+@import 'init.scss';
+@import 'const.scss';
+
+
+.header{
+  background: #3a3a3a;
+  width: 100%;
+  height: $navHeight;
+  // 导航条定位在最上方
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  // 透明度
+  //opacity: 0.5;
+
+  z-index: 100;
+
+  .container{
+    //background: aqua;
+    margin: 0 auto;
+    width: $pageWidth;
+    height: 100%;
+    overflow: hidden;
+
+    .logo_box{
+      height: 49px;
+      width: 140px;
+      background: url("https://www.xfz.cn/static/build/images/logo.png") no-repeat;
+      margin-top: 7px;
+      float: left;
+
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .nav{
+      margin-left: 128px;
+      float: left;
+
+      li{
+        float: left;
+        margin-right: 40px;
+        height: $navHeight;
+        line-height: $navHeight;
+        box-sizing: border-box;
+        a{
+          color: #ffffff;
+        }
+        &.active{
+          border-bottom: 5px solid #5c87d9;
+        }
+      }
+    }
+    .auth-box{
+      float: right;
+      line-height: $navHeight;
+      color: #ffffff;
+
+      .iconfont{
+        color: #ffffff;
+        font-size: 22px;
+      }
+      a{
+        color: #ffffff;
+      }
+    }
+  }
+
+}

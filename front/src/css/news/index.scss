@@ -1,0 +1,140 @@
+@import '../common/init.scss';
+@import '../common/const.scss';
+@import "../common/header.scss";
+@import "../common/footer.scss";
+@import "../common/body.scss";
+@import "../common/new_list.scss";
+
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            .banner-group{
+                width: 100%;
+                height: $bannerHeight;
+                background: blueviolet;
+                // 为了轮播图
+                position: relative;
+                // 隐藏超出的轮播图
+                overflow: hidden;
+
+                z-index: 0;
+
+                .arrow{
+                    //font-family: Helvetica,Neue,Arial,sans-serif;
+                    font-size: 70px;
+                    color: black;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -45px;
+                    cursor: pointer;
+                    display: none;
+                }
+                .left-arrow{
+                    left: 20px;
+                }
+                .right-arrow{
+                    right: 20px;
+                }
+                .banner-ul{
+                    overflow: hidden;
+                    //width: $bannerWidth * 4;
+                    // 为了轮播图
+                    position: absolute;
+                    left: 0;
+
+                    li{
+                        float: left;
+                        width: $bannerWidth;
+                        height: $bannerHeight;
+
+                        img{
+                            width: $bannerWidth;
+                            height: $bannerHeight;
+                        }
+                    }
+                }
+                .page-control-group{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 15px;
+                    .page-control{
+                        margin: 0 auto;
+                        overflow: hidden;
+                        //width: 10*4px + 8*2px + 16*3px;
+                        li{
+                            width: 10px;
+                            height: 10px;
+                            border: 1px solid #ffffff;
+                            border-radius: 50%;
+                            float: left;
+                            margin:0 8px;
+                            box-sizing: border-box;
+                            cursor: pointer;
+
+                            &.active{
+                                background: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            .list-outer-group{
+                background: #ffffff;
+                margin-top: 14px;
+                .list-tab{
+                    width: 100%;
+                    height: 66px;
+                    overflow: hidden;
+                    border: 1px solid #eeeeee;
+                    border-left: None;
+                    border-right: None;
+                    li{
+                        float:left;
+                        padding: 0 10px;
+                        margin-top: 22px;
+
+                        a{
+                            color: #878787;
+                        }
+                        &:first-of-type {
+                            border-left: 5px solid #5c89d9;
+                        }
+                        &.active{
+                            a{
+                                color: #212121;
+                            }
+                        }
+                    }
+                }
+                .list-inner-group{
+                    @include new_list;
+                }
+                .load-more-group{
+                    padding: 20px 0;
+                    text-align: center;
+                    .load-more{
+                        width: 402px;
+                        height: 40px;
+                        background: #d2dcea;
+                        color: #6d85ac;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

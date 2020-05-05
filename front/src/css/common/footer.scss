@@ -1,0 +1,113 @@
+@import "const.scss";
+.footer{
+  margin-top: 40px;
+  font-size: 14px;
+  color: #c9c9c9;
+  .top-group{
+    background: #555e67;
+    height: 100px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    .top-inner-group{
+      width: $pageWidth;
+      margin: 0 auto;
+      //overflow: hidden;
+      position: relative;
+      .logo-box{
+        width: 168px;
+        height: 54px;
+        float: left;
+        background: url("https://www.xfz.cn/static/build/images/logo-test.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .detail-group{
+        float: left;
+        margin-left: 84px;
+
+        .line1{
+          overflow: hidden;
+          .links{
+            float: left;
+            overflow: hidden;
+            li{
+              float: left;
+              padding: 0 10px;
+              border-right: 1px solid #c9c9c9;
+              &:first-of-type{
+                padding-left: 0;
+              }
+              &:last-of-type{
+                border-right: none;
+              }
+              a{
+                color: #c9c9c9;
+              }
+            }
+          }
+          .about-us{
+            float: left;
+            margin-left: 40px;
+            .title{
+              float: left;
+            }
+            .social-group{
+              float: left;
+              overflow: hidden;
+              li{
+                float: left;
+                .text{
+                  margin-left: 26px;
+                  color: #ffffff;
+                  cursor: pointer;
+                }
+              }
+              .weixin{
+                background: url("https://www.xfz.cn/static/build/images/wx-icon.png");
+                background-repeat: no-repeat;
+                background-size: 30%;
+                .wx-qrcode{
+                  width: 204px;
+                  height: 204px;
+                  background: url("https://xfz.cn/static/build/images/xfz-school-wechat-share.png");
+                  background-size: 100%;
+                  position: absolute;
+                  right: 360px;
+                  top: -215px;
+                  display: none;
+                }
+                &:hover .wx-qrcode{
+                  display: block;
+                }
+              }
+              .weibo{
+                background: url("https://www.xfz.cn/static/build/images/xl-icon.png");
+                background-repeat: no-repeat;
+                background-size: 18%;
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+        .line2{
+          margin-top: 18px;
+          overflow: hidden;
+          .address{
+            float: left;
+          }
+          .contact{
+            margin-left: 40px;
+            float: left;
+          }
+        }
+      }
+
+    }
+  }
+  .bottom-group{
+    background: #383e44;
+    height: 60px;
+    text-align: center;
+    line-height: 60px ;
+  }
+}

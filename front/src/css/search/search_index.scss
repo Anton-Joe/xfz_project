@@ -1,0 +1,50 @@
+@import '../common/init.scss';
+@import '../common/const.scss';
+@import "../common/header.scss";
+@import "../common/footer.scss";
+@import "../common/body.scss";
+@import "../common/new_list.scss";
+
+.wrapper{
+  .main-content-wrapper{
+    .list-outer-group{
+      background: #ffffff;
+      .search-box{
+        padding: 20px;
+        height: 60px;
+        overflow: hidden;
+        border-bottom: 1px solid $lineColor;
+        input{
+          height: 40px;
+          width: 85%;
+          border: 1px solid $lineColor;
+          outline: none;
+          padding-left: 10px;
+          box-sizing: border-box;
+          float: left;
+          margin-top: 10px;
+        }
+        .search-btn{
+          margin-top: 10px;
+          float: left;
+          display: inline-block;
+          color: #ffffff;
+          background: $themeColor;
+          height: 40px;
+          line-height: 40px;
+          width: 90px;
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+      p.list-title{
+        font-size: 18px;
+        color: $mainFontColor;
+        padding:10px 0px 2px 20px;
+      }
+      .list-inner-group{
+        @include new_list;
+      }
+    }
+  }
+}
