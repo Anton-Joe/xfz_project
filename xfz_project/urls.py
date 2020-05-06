@@ -15,9 +15,12 @@ Including another URLconf
 """
 
 from django.urls import path, include
-
+from apps.news import views
 urlpatterns = [
+    path('', views.index, name='index'),
+    path('search/', views.search, name='search'),
     path('cms/', include("apps.cms.urls")),
-    path('', include("apps.news.urls")),
+    path('news/', include("apps.news.urls")),
     path('account/', include("apps.xfzauth.urls")),
+    path('course/', include("apps.course.urls")),
 ]

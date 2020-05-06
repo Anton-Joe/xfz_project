@@ -6,12 +6,13 @@ body{
 }
 
 .mask-wrapper{
+  z-index: 150;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.8);
   //overflow: scroll;
   overflow-y: scroll;
   $authWrapperHeight:550px;
@@ -20,7 +21,11 @@ body{
   .auth-wrapper{
     width: $authWrapperWidth;
     height: $authWrapperHeight;
-    margin: 40px auto;
+    position: absolute;
+    margin-top: - $authWrapperHeight / 2;
+    top: 50%;
+    margin-left:  -$authWrapperWidth/ 2;
+    left: 50%;
     .close-wrapper{
       width: 100%;
       height: 40px;

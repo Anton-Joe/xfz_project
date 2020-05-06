@@ -75,5 +75,5 @@ gulp.task('bs', function(){
 });
 
 // 创建默认任务
-gulp.task("default", ['bs', 'watch']);
-
+// gulp.task("default", ['bs', 'watch']);
+gulp.task("default", ['watch']);
