@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce316f9-009b-4759-bc02-9e56fe1674ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/js/message.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/js/xfzajax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/xfzajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/js/front_base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/xfzauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xfzauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/common/header.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/common/header.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/common/new_list.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/common/new_list.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/course/course_detail.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/course/course_detail.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/course/course_index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/course/course_index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/course/course_nav.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/course/course_nav.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/news/index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/news/index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/news/news_detail.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/news/news_detail.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/css/search/search_index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/search/search_index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/js/auth.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/auth.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/css/common/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/common/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/base/front_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/base/front_base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,47 +28,76 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="112" selection-start-line="112" selection-end-line="115" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/js/xfzajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="25" column="6" lean-forward="true" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/js/message.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/xfzauth/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-304">
+                  <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#90#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-114">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/xfzauth/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#19#78#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/front/src/js/front_base.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/front/src/css/common/header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="68" column="20" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -77,6 +116,7 @@
       <find>form</find>
       <find>APPEND</find>
       <find>window</find>
+      <find>more-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/src/css/index.css" />
-        <option value="$PROJECT_DIR$/front/src/css/init.scss" />
         <option value="$PROJECT_DIR$/front/src/js/index.js" />
         <option value="$PROJECT_DIR$/front/src/css/header.scss.css" />
         <option value="$PROJECT_DIR$/front/src/css/header.scss" />
@@ -98,7 +136,6 @@
         <option value="$PROJECT_DIR$/front/src/css/course_index.scss" />
         <option value="$PROJECT_DIR$/front/src/css/common/body.scss" />
         <option value="$PROJECT_DIR$/front/src/css/common/footer.scss" />
-        <option value="$PROJECT_DIR$/front/src/css/common/header.scss" />
         <option value="$PROJECT_DIR$/front/src/css/news/news_detail.scss" />
         <option value="$PROJECT_DIR$/front/src/css/course/course_nav.scss" />
         <option value="$PROJECT_DIR$/front/src/css/common/const.scss" />
@@ -116,7 +153,6 @@
         <option value="$PROJECT_DIR$/apps/xfzauth/models.py" />
         <option value="$PROJECT_DIR$/apps/xfzauth/forms.py" />
         <option value="$PROJECT_DIR$/utils/restful.py" />
-        <option value="$PROJECT_DIR$/apps/xfzauth/views.py" />
         <option value="$PROJECT_DIR$/apps/news/views.py" />
         <option value="$PROJECT_DIR$/apps/news/urls.py" />
         <option value="$PROJECT_DIR$/front/templates/common/sidebar.html" />
@@ -134,8 +170,12 @@
         <option value="$PROJECT_DIR$/front/src/css/common/auth.scss" />
         <option value="$PROJECT_DIR$/xfz_project/settings.py" />
         <option value="$PROJECT_DIR$/front/src/js/xfzajax.js" />
-        <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
+        <option value="$PROJECT_DIR$/front/src/js/message.js" />
+        <option value="$PROJECT_DIR$/apps/xfzauth/views.py" />
+        <option value="$PROJECT_DIR$/front/src/css/common/header.scss" />
         <option value="$PROJECT_DIR$/front/src/js/auth.js" />
+        <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
+        <option value="$PROJECT_DIR$/front/src/js/front_base.js" />
       </list>
     </option>
   </component>
@@ -167,7 +207,19 @@
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xfzauth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
@@ -180,7 +232,21 @@
               <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
@@ -274,7 +340,7 @@
       <workItem from="1588600317994" duration="601000" />
       <workItem from="1588668429906" duration="16940000" />
       <workItem from="1588691477723" duration="1662000" />
-      <workItem from="1588743246741" duration="13718000" />
+      <workItem from="1588743246741" duration="18773000" />
     </task>
     <task id="LOCAL-00001" summary="1.静态模板改成django模板&#10;2.使用ajax发送登录请求">
       <created>1588757323025</created>
@@ -283,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588757323025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加js文件，添加上一次commit未选中的文件">
+      <created>1588757553346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588757553346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107791000" />
+    <option name="totallyTimeSpent" value="112846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,13 +373,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.211126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.446959" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41926345" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.26487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,8 +388,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3437058" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" visible="true" weight="0.46458924" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.37393767" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49798927" visible="true" weight="0.2181303" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="manage.py@xfz_project" order="13" visible="true" weight="0.06789251" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -324,36 +398,40 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.446959" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.22379604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.37393767" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49798927" visible="true" weight="0.22521247" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="manage.py@xfz_project" order="13" visible="true" weight="0.06789251" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.静态模板改成django模板&#10;2.使用ajax发送登录请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.静态模板改成django模板&#10;2.使用ajax发送登录请求" />
+    <MESSAGE value="添加js文件，添加上一次commit未选中的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加js文件，添加上一次commit未选中的文件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/src/css/common/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/css/common/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/css/common/init.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/dist/css/body.min.css" />
     <entry file="file://$PROJECT_DIR$/front/src/css/course/course_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/cms/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
@@ -527,16 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/xfzauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#90#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/css/common/auth.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -709,33 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/xfzauth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#19#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="112" selection-start-line="112" selection-end-line="115" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/xfzajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -745,8 +772,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+        <state relative-caret-position="208">
+          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/xfzauth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/xfzauth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="e#19#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/css/common/header.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1369" selection-start-column="1364" selection-end-column="1369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="2" lean-forward="true" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/common/auth.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1203">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/common/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/front_base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>

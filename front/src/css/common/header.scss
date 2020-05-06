@@ -66,6 +66,39 @@
       a{
         color: #ffffff;
       }
+      .user-more-box{
+        width: 140px;
+        z-index: 2;
+        position: absolute;
+        font-size: 14px;
+        background: #fff;
+        border: 2px solid $themeColor;
+        display: none;
+
+        .triangle{
+          border: solid transparent;
+          border-width: 10px;
+          border-bottom-color: $lineColor;
+          display: block;
+          width: 0;
+          height: 0;
+          margin-top: -20px;
+          margin-left: 60px;
+        }
+        a{
+          font-size: 18px;
+          color: black;
+          height: 30px;
+          width: 80%;
+          line-height: 30px;
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          &:first-of-type{
+            border-bottom: 2px solid $themeColor;
+          }
+        }
+      }
     }
   }
 

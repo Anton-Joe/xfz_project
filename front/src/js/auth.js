@@ -1,15 +1,4 @@
-// // 点击登录按钮弹出模态对话框
-// $(function () {
-//    $("#btn").click(function () {
-//        $(".mask-wrapper").show()
-//    });
-//
-//    $(".close-btn").click(function(){
-//        $(".mask-wrapper").hide();
-//     });
-// });
-
-
+// 用于处理登录与注册
 function Auth(){
     var self = this;
     self.maskWrapper = $('.mask-wrapper');

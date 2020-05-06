@@ -6,6 +6,11 @@ from .forms import LoginForm
 from utils import restful
 
 
+def logout(request):
+    user = request.session.get('_auth_user_id')
+    # username = User.objects.
+
+
 @require_POST
 def login_view(request):
     form = LoginForm(request.POST)
