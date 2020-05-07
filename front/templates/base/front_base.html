@@ -44,7 +44,7 @@
                 <div class="user-more-box" >
                     <i class="triangle"></i>
                     <a href="#">管理系统</a>
-                    <a href="/account/logout/">退出登录</a>
+                    <a href="{% url 'xfzauth:logout' %}">退出登录</a>
                 </div>
             {% else %}
             <a href="#" class="signin-btn">登录</a>
@@ -140,7 +140,7 @@
                                 <input type="text" class="form-control" name="img_captcha" placeholder="请输入验证码">
                             </div>
                             <div class="input-group-addon">
-
+                                <img src="{% url 'xfzauth:img_captcha' %}" class="img-captcha" style="cursor: pointer;">
                             </div>
                         </div>
                         <div class="input-group">

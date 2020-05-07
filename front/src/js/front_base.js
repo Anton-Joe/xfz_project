@@ -36,6 +36,15 @@ Auth.prototype.run = function(){
     self.listenShowHideEvent();
     self.listenSwitchEvent();
     self.listenSigninEvent();
+    self.listenImgCaptchaEvent();
+};
+
+Auth.prototype.listenImgCaptchaEvent = function(){
+  var imgCaptcha = $('.img-captcha');
+  imgCaptcha.click(function () {
+      // /account/img_captcha/?random=xxx
+     imgCaptcha.attr("src", "/account/img_captcha"+"?random="+Math.random());
+  });
 };
 
 Auth.prototype.showEvent = function(){

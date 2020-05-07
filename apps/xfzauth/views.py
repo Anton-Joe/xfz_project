@@ -4,11 +4,15 @@ from django.contrib.auth import login, logout, authenticate
 from django.views.decorators.http import require_POST
 from .forms import LoginForm
 from utils import restful
+from django.shortcuts import reverse, redirect
+from utils.captcha.xfzcaptcha import Captcha
+from io import BytesIO
+from django.http import HttpResponse
 
 
-def logout(request):
-    user = request.session.get('_auth_user_id')
-    # username = User.objects.
+def logout_view(request):
+    logout(request)
+    return redirect(reverse('index'))
 
 
 @require_POST
@@ -35,4 +39,24 @@ def login_view(request):
     else:
         errors = form.get_errors()
         return restful.params_error(message=errors)
+
+
+# from utils.captcha.xfzcaptcha import Captcha
+# from io import BytesIO
+# from django.http import HttpResponse
+def img_captcha(request):
+    text, image = Captcha.gene_code()
+    # 存储图片数据流
+    out = BytesIO()
+    # 将图片对象保存到BytesIO中
+    image.save(out, 'png')
+    # 将文件指针移到开头
+    out.seek(0)
+
+    response = HttpResponse(content_type='image/png')
+    response.write(out.read())
+    # .tell()，获得文件指针的位置，也就是文件长度
+    response['Content-length'] = out.tell()
+
+    return response
 
