@@ -8,6 +8,7 @@ from django.shortcuts import reverse, redirect
 from utils.captcha.xfzcaptcha import Captcha
 from io import BytesIO
 from django.http import HttpResponse
+from utils.aliyundsk.aliyunsmsapi import aliyunsms
 
 
 def logout_view(request):
@@ -59,4 +60,9 @@ def img_captcha(request):
     response['Content-length'] = out.tell()
 
     return response
+
+
+def sms_captach(request):
+    result = aliyunsms.send_sms(phone_numbers=185806666, code="181545")
+    print(result)
 
