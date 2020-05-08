@@ -29,6 +29,7 @@ function Auth(){
     var self = this;
     self.maskWrapper = $('.mask-wrapper');
     self.scrollWrapper = $(".scroll-wrapper");
+    self.smsCaptcha = $(".sms-captcha-btn");
 }
 
 Auth.prototype.run = function(){
@@ -37,6 +38,98 @@ Auth.prototype.run = function(){
     self.listenSwitchEvent();
     self.listenSigninEvent();
     self.listenImgCaptchaEvent();
+    self.listenSMSCaptchaEvent();
+    self.listenSignupEvent();
+};
+
+Auth.prototype.listenSignupEvent = function(){
+    var signupGroup = $(".signup-group");
+    var submitBtn = signupGroup.find('.submit-btn');
+
+
+    submitBtn.click(function(event){
+        // 阻止表单的默认行为
+        event.preventDefault();
+
+        var telephoneInput = signupGroup.find("input[name='telephone']");
+        var usernameInput = signupGroup.find("input[name='username']");
+        var password1Input = signupGroup.find("input[name='password1']");
+        var password2Input = signupGroup.find("input[name='password2']");
+        var img_captchaInput = signupGroup.find("input[name='img_captcha']");
+        var sms_captchaInput = signupGroup.find("input[name='sms_captcha']");
+
+        var telephone = telephoneInput.val();
+        var username = usernameInput.val();
+        var password1 = password1Input.val();
+        var password2 = password2Input.val();
+        var img_captcha = img_captchaInput.val();
+        var sms_captcha = sms_captchaInput.val();
+
+
+        console.log(" here");
+        xfzajax.post({
+            'url': '/account/register/',
+            'data':{
+                'telephone': telephone,
+                'username': username,
+                'password1': password1,
+                'password2': password2,
+                'img_captcha': img_captcha,
+                'sms_captcha': sms_captcha,
+            },
+            'success': function(result){
+                // 重新加载当前页面
+                window.location.reload();
+            },
+        })
+
+    });
+
+};
+
+Auth.prototype.smsSuceessEvnet = function(){
+    var self = this;
+    messageBox.showSuccess('短信验证码发送成功！');
+    self.smsCaptcha.addClass("disabled");
+    var count = 60;
+    // 取消点击事件
+    self.smsCaptcha.unbind('click');
+    var timer = setInterval(function(){
+        self.smsCaptcha.text(count + 's');
+        count--;
+        if (count<=0){
+            clearInterval(timer);
+            self.smsCaptcha.removeClass("disabled");
+            self.smsCaptcha.text("发送验证码");
+            // 重新绑定一次点击事件
+            self.listenSMSCaptchaEvent();
+        }
+    }, 1000);
+};
+
+Auth.prototype.listenSMSCaptchaEvent = function(){
+    var self = this;
+    var telephoneInput = $(".signup-group input[name='telephone']");
+    self.smsCaptcha.click(function(){
+        var telephone =  telephoneInput.val();
+        if(!telephone){
+            window.messageBox.showInfo("请输入手机号码！");
+        }
+        xfzajax.get({
+            'url': '/account/sms_captcha/',
+            'data':{
+                'telephone': telephone
+            },
+            'success': function(result){
+                if(result['code'] == 200){
+                    self.smsSuceessEvnet();
+                }
+            },
+            'fail': function(error){
+                console.log(error)
+            },
+        })
+    });
 };
 
 Auth.prototype.listenImgCaptchaEvent = function(){
@@ -109,23 +202,9 @@ Auth.prototype.listenSigninEvent = function(){
                 'remember': remember?1:0,
             },
             'success': function(result){
-                if(result['code'] == 200){
-                    self.hideEvent();
-                    window.location.reload();
-                }else {
-                    var messageObject = result['message'];
-                    if (typeof messageObject == 'string' || messageObject.constructor == String){
-                        // console.log(messageObject);
-                        window.messageBox.show(messageObject)
-                    }else {
-                        for(var key in messageObject){
-                            var messages = messageObject[key];
-                            var message = messages[0];
-                            // console.log(message)
-                            window.messageBox.show(message)
-                        }
-                    }
-                }
+                self.hideEvent();
+                console.log("成功登陆！")
+                window.location.reload();
             },
             'fail': function(error){
                 console.log('error');

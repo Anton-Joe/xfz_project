@@ -34,7 +34,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     telephone = models.CharField(max_length=11, unique=True)
     # password 已经存在于父类 AbstractBaseUser中
     # password = models.CharField(max_length=200)
-    email = models.EmailField(unique=True)
+    email = models.EmailField(unique=True, null=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     # auto_now_add 自动记录当前用户被创建的时间为date_joined
