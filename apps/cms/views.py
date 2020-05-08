@@ -14,3 +14,7 @@ def index(request):
 class WriteNewsView(View):
     def get(self, request):
         return render(request, 'cms/write_news.html')
+
+
+def news_category(request):
+    return render(request, 'cms/news_category.html')

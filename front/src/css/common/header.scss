@@ -21,7 +21,6 @@
     margin: 0 auto;
     width: $pageWidth;
     height: 100%;
-    overflow: hidden;
 
     .logo_box{
       height: 49px;
@@ -58,7 +57,7 @@
       float: right;
       line-height: $navHeight;
       color: #ffffff;
-
+      position: relative;
       .iconfont{
         color: #ffffff;
         font-size: 22px;

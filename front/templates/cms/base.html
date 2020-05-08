@@ -119,9 +119,22 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="active">
-                    <a href="#">
+                    <a href="{% url 'cms:index' %}">
                         <i class="fa fa-home"></i>
                         <span>首页</span>
+                    </a>
+                </li>
+                <li class="header">新闻管理</li>
+                <li>
+                    <a href="{% url 'cms:write_news' %}">
+                        <i class="fa fa-edit"></i>
+                        <span>发布新闻</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'cms:news_category' %}">
+                        <i class="fa fa-tag"></i>
+                        <span>新闻分类管理</span>
                     </a>
                 </li>
             </ul>
