@@ -72,8 +72,10 @@
         position: absolute;
         font-size: 14px;
         background: #fff;
-        border: 2px solid $themeColor;
+        border: 2px solid $lineColor;
         display: none;
+        box-shadow: 10px 10px 5px #ccc;
+        color: $themeColor;
 
         .triangle{
           border: solid transparent;
@@ -83,11 +85,11 @@
           width: 0;
           height: 0;
           margin-top: -20px;
-          margin-left: 60px;
+          margin-left: 20px;
         }
         a{
-          font-size: 18px;
-          color: black;
+          font-size: 14px;
+          color: darkblue;
           height: 30px;
           width: 80%;
           line-height: 30px;
@@ -95,7 +97,7 @@
           display: block;
           margin: 0 auto;
           &:first-of-type{
-            border-bottom: 2px solid $themeColor;
+            border-bottom: 1px solid $themeColor;
           }
         }
       }

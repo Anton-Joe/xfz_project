@@ -43,7 +43,9 @@
                 <a href="#" class="authenticated-box">{{ user.username }}</a>
                 <div class="user-more-box" >
                     <i class="triangle"></i>
-                    <a href="#">管理系统</a>
+                    {% if user.is_staff %}
+                        <a href="{% url 'cms:index' %}">管理系统</a>
+                    {% endif %}
                     <a href="{% url 'xfzauth:logout' %}">退出登录</a>
                 </div>
             {% else %}
@@ -144,13 +146,14 @@
                             </div>
                         </div>
                         <div class="input-group">
-                            <input type="text" class="form-control" name="password1" placeholder="请输入密码">
+                            <input type="password" class="form-control" name="password1" placeholder="请输入密码">
                         </div>
                         <div class="input-group">
-                            <input type="text" class="form-control" name="password2" placeholder="请再次输入密码">
+                            <input type="password" class="form-control" name="password2" placeholder="请再次输入密码">
                         </div>
                         <div class="input-group">
                             <div class="short-input-group">
+                                <input type="text" class="form-control" name="sms_captcha" placeholder="请输入验证码">
                                 <input type="text" class="form-control" name="sms_captcha" placeholder="请输入验证码">
                             </div>
                             <div class="input-group-addon">
