@@ -5,11 +5,11 @@ NewsCategory.prototype.run = function () {
     var self = this;
     self.listenAddCategoryEvent();
     self.listenEditCategoryEvent();
-    self.listenDeletCategoryEvent();
+    self.listenDeleteCategoryEvent();
 };
 
 
-NewsCategory.prototype.listenDeletCategoryEvent = function(){
+NewsCategory.prototype.listenDeleteCategoryEvent = function(){
     var self = this;
     var btn = $('.delete-btn');
     btn.click(function(){
@@ -26,8 +26,13 @@ NewsCategory.prototype.listenDeletCategoryEvent = function(){
                     'data':{
                         'pk': pk
                     },
-                    'success':function(){
-                        window.location.reload();
+                    'success':function(result){
+                        if(result['code'] === 200){
+                            window.location.reload();
+                        }else{
+                            // 关闭当前提示框，对话框
+                            xfzalert.close();
+                        }
                     },
                 })
             },
@@ -59,6 +64,9 @@ NewsCategory.prototype.listenEditCategoryEvent = function(){
                   'success': function (result) {
                       if(result['code'] === 200){
                           window.location.reload();
+                      }else{
+                          // 关闭当前提示框，对话框
+                          xfzalert.close();
                       }
                   }
               })
@@ -82,6 +90,9 @@ NewsCategory.prototype.listenAddCategoryEvent = function(){
                    'success': function (result) {
                      if(result['code']===200){
                          window.location.reload();
+                     }else{
+                         // 关闭当前提示框，对话框
+                         xfzalert.close();
                      }
                    },
                });

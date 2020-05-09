@@ -38,20 +38,23 @@ var xfzajax = {
             if (result['code'] === 200){
                 // 如果存在用户自己的sucess事件，则执行用户的sucess事件 并且
                 if(success){
-                    success(result)
+                    success(result);
                 }
             }else{
                 var messageObject = result['message'];
                 if (typeof messageObject == 'string' || messageObject.constructor == String){
                     // console.log(messageObject);
-                    window.messageBox.show(messageObject)
+                    window.messageBox.showError(messageObject)
                 }else {
                     for(var key in messageObject){
                         var messages = messageObject[key];
                         var message = messages[0];
                         // console.log(message)
-                        window.messageBox.show(message)
+                        window.messageBox.showError(message);
                     }
+                }
+                if(success){
+                    success(result);
                 }
             }
         };
