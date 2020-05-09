@@ -2,739 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce316f9-009b-4759-bc02-9e56fe1674ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/draggable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/resizable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/selectable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/selectmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/sortable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/base/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_diagonals-thick_8_333333_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_40_111111_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_55_1c1c1c_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_100_f9f9f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_40_aaaaaa_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-soft_50_aaaaaa_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_45_cd0a0a_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_55_ffeb80_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_4ca300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ededed_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffcf29_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/black-tie/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_dots-small_65_a6a6a6_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_0_333333_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-soft_15_cc0000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-icons_004276_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/blitzer/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2694e8_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-icons_3d80b3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-icons_72a7cf_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/cupertino/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-hard_20_0972a5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_33_003147_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_35_222222_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_44_444444_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_loop_25_000000_21x21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_a83300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dark-hive/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-medium_30_0b58a2_4x4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_20_333333_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_30_a32d00_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_40_00498f_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_flat_40_292929_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_gloss-wave_20_111111_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_00498f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_98d2fb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_9ccdfc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/dot-luv/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_55_994d53_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_55_fafafa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_gloss-wave_30_3d3644_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_dcd9de_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_eae6ea_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_45_5f5964_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_734d99_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_8d78a5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_a8a3ae_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ebccce_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/eggplant/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-small_25_c5ddfc_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_20_e69700_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_26_2293f7_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e69700_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e6b900_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_highlight-soft_100_f9f9f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_inset-hard_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0a82eb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0b54d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_5fa5e3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_fcdd4a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/excite-bike/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-icons_0073ea_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-icons_666666_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-icons_ff0084_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/flick/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_88a206_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_c02669_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_e1e463_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffeb33_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/hot-sneaks/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_100_f5f0e5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_70_ede4d4_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_100_f4f0ec_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_75_f5f5b5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-bg_inset-soft_100_f4f0ec_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_c47a23_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_cb672b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_f35f07_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_ff7519_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/humanity/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-small_0_aaaaaa_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_15_444444_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_glass_55_fbf5d0_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-hard_30_285c00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_33_3a8104_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_50_4eb305_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_60_4ca20b_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-bg_inset-soft_10_285c00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-icons_4eb305_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-icons_72b42d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/le-frog/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_glass_15_5f391b_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_20_1c160d_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_25_453326_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_30_44372c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_201913_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_619226_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_inset-soft_10_201913_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_9bcc60_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_add978_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_e3ddc9_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_f1fd86_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/mint-choc/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_55_c0402a_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_55_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_100_f8f8f8_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_35_dddddd_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_60_eeeeee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-hard_75_999999_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-soft_50_c9c9c9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-icons_3383bb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-icons_70b2e1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-icons_999999_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/images/ui-icons_fbc856_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/overcast/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_40_000000_10x10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/pepper-grinder/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_flat_55_fbec88_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_217bc0_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_469bdd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/redmond/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/smoothness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_glass_55_fcf0ba_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_fafaf4_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_15_459e00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_95_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_25_67b021_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_95_ffedad_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-bg_inset-soft_15_2b2922_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_808080_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_847e71_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_8DC262_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_eeeeee_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/south-street/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_0078ae_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_056b93_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_e0fdff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_f5e175_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_f7a50d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/images/ui-icons_fcd113_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/start/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_3d3d3d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_bd7b00_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_d19405_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_eb990f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_ed9f26_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_fadc7a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/images/ui-icons_ffe180_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/sunny/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_10_4f4221_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_20_372806_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_675423_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_d5ac5d_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_261803_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_443113_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_flat_75_ddd4b0_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_070603_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e8e2b5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e9cd86_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_efec9f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f2ec64_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f9f2bd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_ff7519_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/swanky-purse/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_diagonals-small_50_262626_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_flat_0_303030_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_flat_0_4c4c4c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_40_0a0a0a_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_55_f1fbe5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_60_000000_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_55_000000_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_95_f6ecd5_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_000000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_1f1f1f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_9fda58_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_b8ec79_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/trontastic/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_20_555555_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_0078a3_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_gloss-wave_25_333333_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_25_000000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_a83300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-darkness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/ui-lightness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_gloss-wave_16_121212_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_15_888888_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_55_555555_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_35_adadad_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_60_dddddd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-bg_inset-soft_15_121212_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_666666_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_aaaaaa_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_c98000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/images/ui-icons_f29a00_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/themes/vader/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-blind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-bounce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-clip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-drop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-explode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-fade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-puff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-pulsate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-shake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-size.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect-transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ar-DZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-cy-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-en-AU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-en-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-en-NZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fr-CA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fr-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-it-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-nl-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-rm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sr-SR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-zh-HK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/i18n/datepicker-zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/autocomplete.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/button.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/dialog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/draggable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/droppable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-blind.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-bounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-clip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-drop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-explode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-fade.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-fold.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-puff.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-pulsate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-scale.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-shake.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-size.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-slide.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect-transfer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/effect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-af.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar-DZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-be.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-cy-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-NZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-km.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-lb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-nn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-rm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr-SR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-tj.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-HK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/menu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/mouse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/position.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/resizable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/selectable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/selectmenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/slider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/tabs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/minified/widget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/mouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/resizable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/selectable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/selectmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery-ui/ui/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/dist/js/adminlte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/dist/js/adminlte.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/dist/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/dist/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/dist/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/sweetalert/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/news_category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/xfzalert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/js/news_category.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/news_category.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/js/news_category.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/news_category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/templates/cms/news_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/news_category.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -751,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+            <state relative-caret-position="491">
+              <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -763,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+            <state relative-caret-position="209">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -772,20 +45,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/templates/cms/news_category.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/cms/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="76">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/templates/cms/news_category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/js/xfzajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/src/js/news_category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="133">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/js/xfzalert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -797,9 +100,9 @@
       <list>
         <option value="CSS File" />
         <option value="SCSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -831,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/src/css/common/body.scss" />
         <option value="$PROJECT_DIR$/front/src/css/common/footer.scss" />
         <option value="$PROJECT_DIR$/front/src/css/news/news_detail.scss" />
         <option value="$PROJECT_DIR$/front/src/css/course/course_nav.scss" />
@@ -878,10 +180,11 @@
         <option value="$PROJECT_DIR$/apps/news/views.py" />
         <option value="$PROJECT_DIR$/front/src/js/test.js" />
         <option value="$PROJECT_DIR$/apps/news/urls.py" />
+        <option value="$PROJECT_DIR$/front/templates/cms/news_category.html" />
+        <option value="$PROJECT_DIR$/apps/cms/forms.py" />
+        <option value="$PROJECT_DIR$/apps/cms/views.py" />
         <option value="$PROJECT_DIR$/apps/cms/urls.py" />
         <option value="$PROJECT_DIR$/front/src/js/news_category.js" />
-        <option value="$PROJECT_DIR$/apps/cms/views.py" />
-        <option value="$PROJECT_DIR$/front/templates/cms/news_category.html" />
       </list>
     </option>
   </component>
@@ -936,28 +239,7 @@
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="sweetalert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
@@ -1076,7 +358,8 @@
       <workItem from="1588854235341" duration="4381000" />
       <workItem from="1588860283879" duration="2724000" />
       <workItem from="1588912291837" duration="18536000" />
-      <workItem from="1588953800565" duration="3364000" />
+      <workItem from="1588953800565" duration="3488000" />
+      <workItem from="1589021364669" duration="3068000" />
     </task>
     <task id="LOCAL-00001" summary="1.静态模板改成django模板&#10;2.使用ajax发送登录请求">
       <created>1588757323025</created>
@@ -1141,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588944314983</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CMS新闻分类管理页面功能：添加新分类。完成">
+      <created>1588957234747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588957234747</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143558000" />
+    <option name="totallyTimeSpent" value="146750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1160,21 +450,21 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.446959" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.50708216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.15014164" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.37393767" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49798927" weight="0.64447594" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49798927" visible="true" weight="0.04532578" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="manage.py@xfz_project" order="13" weight="0.203966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1221,31 +511,10 @@
     <MESSAGE value="用户点击管理系统，可进入后台管理系统首页：完成添加后台管理系统首页，但无内容，仅展示" />
     <MESSAGE value="CSM发布新闻页面 完成" />
     <MESSAGE value="CMS新闻分类管理页面 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="CMS新闻分类管理页面 完成" />
+    <MESSAGE value="CMS新闻分类管理页面功能：添加新分类。完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS新闻分类管理页面功能：添加新分类。完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/templates/news/news_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#7255#12135#0#HTML" />
-            <element signature="e#8045#8692#0#HTML" />
-            <element signature="e#8725#10025#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/search/search_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#2744#4255#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/course/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1485,24 +754,10 @@
     <entry file="file://$PROJECT_DIR$/front/dist/js/message.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/xfzajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/xfzalert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1530,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1557,27 +802,64 @@
     <entry file="file://$PROJECT_DIR$/front/dist/js/news_category.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/news_category.js">
+    <entry file="file://$PROJECT_DIR$/front/dist/js/xfzajax.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/xfzalert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/xfzajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        <state relative-caret-position="491">
+          <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_category.html">
+    <entry file="file://$PROJECT_DIR$/front/src/js/news_category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="133">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
