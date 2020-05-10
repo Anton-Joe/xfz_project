@@ -1,4 +1,5 @@
 {% extends 'base/front_base.html' %}
+{% load news_filters %}
 {% block title %}
     小饭桌首页
 {% endblock %}
@@ -26,37 +27,31 @@
                 </div>
                 <div class="list-outer-group">
                     <ul class="list-tab">
-                        <li class="active"><a href="#">最新资讯</a></li>
-                        <li><a href="#">热点</a></li>
-                        <li><a href="#">深度报告</a></li>
-                        <li><a href="#">干货分享</a></li>
-                        <li><a href="#">投资人说</a></li>
+                        {% for category in categories %}
+                            <li><a href="#">{{ category.name }}</a></li>
+                        {% endfor %}
+{##}
+{#                        <li class="active"><a href="#">最新资讯</a></li>#}
+{#                        <li><a href="#">热点</a></li>#}
+{#                        <li><a href="#">深度报告</a></li>#}
+{#                        <li><a href="#">干货分享</a></li>#}
+{#                        <li><a href="#">投资人说</a></li>#}
                     </ul>
                     <ul class="list-inner-group">
-                        <li>
-                            <div class="thumbnail-group"><a href="#"><img src="https://pic4.zhimg.com/80/v2-d61d0a800c1af8cb5a49f23e7f1261f0_720w.jpg"></a></div>
-                            <div class="news-group">
-                                <p class="title"><a href="#">王健林卖掉进军海外首个项目：17亿售论文ONE六成股权</a></p>
-                                <p class="desc">外界关于万达出售多级哦洒基的撒的消息一句也不振</p>
-                                <p class="more">
-                                    <span class="category">深度报道</span>
-                                    <span class="pub-time">1小时前</span>
-                                    <span class="author">业务机</span>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="thumbnail-group"><a href="#"><img src="https://pic4.zhimg.com/80/v2-d61d0a800c1af8cb5a49f23e7f1261f0_720w.jpg"></a></div>
-                            <div class="news-group">
-                                <p class="title"><a href="#">王健林卖掉进军海外首个项目：17亿售论文ONE六成股权</a></p>
-                                <p class="desc">外界关于万达出售多级哦洒基的撒的消息一句也不振</p>
-                                <p class="more">
-                                    <span class="category">深度报道</span>
-                                    <span class="pub-time">1小时前</span>
-                                    <span class="author">业务机</span>
-                                </p>
-                            </div>
-                        </li>
+                        {% for news in newses %}
+                            <li>
+                                <div class="thumbnail-group"><a href="#"><img src="{{ news.thumbnail }}"></a></div>
+                                <div class="news-group">
+                                    <p class="title"><a href="#">{{ news.title }}</a></p>
+                                    <p class="desc">{{ news.desc }}</p>
+                                    <p class="more">
+                                        <span class="category">{{ news.category.name }}</span>
+                                        <span class="pub-time">{{ news.pub_time | time_since}}</span>
+                                        <span class="author">{{ news.author.username }}</span>
+                                    </p>
+                                </div>
+                            </li>
+                        {% endfor %}
                     </ul>
                     <div class="load-more-group">
                         <button class="load-more">查看更多</button>
