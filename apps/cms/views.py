@@ -2,9 +2,9 @@ from django.shortcuts import render
 from django.contrib.admin.views.decorators import staff_member_required
 from django.views.generic import View
 from django.views.decorators.http import require_GET, require_POST
-from ..news.models import NewsCategory
+from ..news.models import NewsCategory, News
 from utils import restful
-from .forms import EditNewsCategoryForm
+from .forms import EditNewsCategoryForm, WriteNewsForm
 import os
 from django.conf import settings
 # Create your views here.
@@ -24,6 +24,25 @@ class WriteNewsView(View):
             'categories': categories
         }
         return render(request, 'cms/write_news.html', context=context)
+
+    def post(self, request):
+        form = WriteNewsForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data.get('title')
+            desc = form.cleaned_data.get('desc')
+            content = form.cleaned_data.get('content')
+            thumbnail = form.cleaned_data.get('thumbnail')
+
+            category_id = form.cleaned_data.get('category')
+            category_obj = NewsCategory.objects.get(pk=category_id)
+            author = request.user
+            News.objects.create(title=title, desc=desc, content=content, thumbnail=thumbnail, category=category_obj, author=author)
+            return restful.ok()
+        else:
+            return restful.params_error(message=form.get_errors())
+
+
+
 
 
 @require_GET
