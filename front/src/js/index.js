@@ -145,6 +145,32 @@ Banner.prototype.listenPageControl = function(){
 function Index(){
     var self = this;
     self.p = 2;
+    // 时间过滤器
+    template.defaults.imports.timeSince = function(dateValue){
+        var date = new Date(dateValue);
+        var dateTimeStamp = date.getTime();//毫秒，传入的时间
+        var nowTimeStamp = (new Date()).getTime();//毫秒，当前时间
+        var timeStamp = (nowTimeStamp - dateTimeStamp) / 1000;
+        if(timeStamp < 60){
+            return '刚刚';
+        }else if(timeStamp >= 60 && timeStamp < 60*60){
+            var minutes = parseInt(timeStamp/60);
+            return minutes + '分钟前';
+        }else if(timeStamp >= 60 * 60 && timeStamp < 60*60*24){
+            var hours = parseInt(timeStamp/60/60);
+            return hours + '小时前';
+        }else if(timeStamp >= 60 * 60 *24 && timeStamp < 60*60*24*30){
+            var days = parseInt(timeStamp/60/60/24);
+            return days + '天前';
+        }else{
+            var year = date.getFullYear();
+            var month = date.getMonth();
+            var day  = date.getDay();
+            var hour = date.getHours();
+            var minute = date.getMinutes();
+            return year+'/'+month+'/'+day+' '+hour+":"+minute;
+        }
+    }
 }
 Index.prototype.run = function(){
     var self = this;
