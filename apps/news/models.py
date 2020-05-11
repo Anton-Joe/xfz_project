@@ -20,3 +20,10 @@ class News(models.Model):
         ordering = ['-pub_time']
 
 
+class Comment(models.Model):
+    content = models.TextField()
+    pub_time = models.DateTimeField(auto_now_add=True)
+    news = models.ForeignKey('News', on_delete=models.CASCADE)
+    author = models.ForeignKey('xfzauth.User', on_delete=models.CASCADE)
+
+

@@ -25,9 +25,9 @@ def news_list(request):
     category_id = int(request.GET.get('category_id', 0))
 
     if category_id == 0:
-        newses = News.objects.all()[start:end]
+        newses = News.objects.select_related('category', 'author').all()[start:end]
     else:
-        newses = News.objects.filter(category__id=category_id)[start:end]
+        newses = News.objects.select_related('category', 'author').filter(category__id=category_id)[start:end]
 
     serializer = NewsSerializer(newses, many=True)
     data = serializer.data
@@ -36,11 +36,10 @@ def news_list(request):
 
 def news_detail(request, news_id):
     try:
-        news = News.objects.get(pk=news_id)
+        news = News.objects.select_related('category', 'author').get(pk=news_id)
         return render(request, 'news/news_detail.html', context={'news': news})
     except:
         raise Http404
-
 
 
 def search(request):

@@ -16,6 +16,7 @@ Including another URLconf
 
 from django.urls import path, include
 from apps.news import views
+from django.conf import settings
 urlpatterns = [
     path('', views.index, name='index'),
     path('search/', views.search, name='search'),
@@ -24,3 +25,7 @@ urlpatterns = [
     path('account/', include("apps.xfzauth.urls")),
     path('course/', include("apps.course.urls")),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns.append(path('__debug__/', include(debug_toolbar.urls)))
