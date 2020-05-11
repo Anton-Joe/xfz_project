@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import News, NewsCategory
+from .models import News, NewsCategory, Comment
 from ..xfzauth.serializers import AuthorSerializer
 
 
@@ -17,6 +17,14 @@ class NewsSerializer(serializers.ModelSerializer):
     class Meta:
         model = News
         fields = ('id', 'title', 'desc', 'thumbnail', 'pub_time', 'category', 'author')
+
+
+class CommentSerializer(serializers.ModelSerializer):
+    author = AuthorSerializer()
+
+    class Meta:
+        model = Comment
+        fields = ('content', 'pub_time', 'id', 'author')
 
 
 

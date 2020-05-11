@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from .models import News, NewsCategory
-from .serializers import NewsSerializer
+from .models import News, NewsCategory, Comment
+from .serializers import NewsSerializer, CommentSerializer
 from django.conf import settings
 from utils import restful
 from django.http import Http404
+from .forms import PublicCommentForm
 
 
 def index(request):
@@ -44,6 +45,23 @@ def news_detail(request, news_id):
 
 def search(request):
     return render(request, 'search/search_index.html')
+
+
+def publish_comment(request):
+    form = PublicCommentForm(request.POST)
+    if form.is_valid():
+        content = form.cleaned_data.get('content')
+        news_id = form.cleaned_data.get('news_id')
+        news = News.objects.get(pk=news_id)
+        author = request.user
+        comment = Comment.objects.create(content=content, news_id=news_id, news=news, author=author)
+        comment_serializer = CommentSerializer(comment)
+        data = comment_serializer.data
+        return restful.result(data=data)
+    else:
+        return restful.params_error(message=form.get_errors())
+
+
 
 
 
