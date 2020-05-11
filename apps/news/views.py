@@ -1,16 +1,13 @@
 from django.shortcuts import render
-from .models import NewsCategory
 from .models import News, NewsCategory
 from .serializers import NewsSerializer
 from django.conf import settings
 from utils import restful
 from django.http import Http404
-import json
-# Create your views here.
 
 
 def index(request):
-    newses = News.objects.order_by('-pub_time')[0:settings.ONE_PAGE_NEWS_COUNT]
+    newses = News.objects.select_related('category', 'author').all()[0:settings.ONE_PAGE_NEWS_COUNT]
     categories = NewsCategory.objects.all()
     context = {
         'newses': newses,
