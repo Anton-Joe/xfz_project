@@ -4,6 +4,7 @@ from .models import News, NewsCategory
 from .serializers import NewsSerializer
 from django.conf import settings
 from utils import restful
+import json
 # Create your views here.
 
 

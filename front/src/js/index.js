@@ -142,12 +142,51 @@ Banner.prototype.listenPageControl = function(){
     });
 };
 
+function Index(){
+    var self = this;
+    self.p = 2;
+}
+Index.prototype.run = function(){
+    var self = this;
+    self.listenLoadMoreEvent();
+
+};
+Index.prototype.listenLoadMoreEvent = function(){
+    var self = this;
+    var btn = $("#load-more-btn");
+    btn.click(function(){
+       xfzajax.get({
+           'url': '/news/list/',
+           'data': {
+               'p': self.p
+           },
+           'success': function (result) {
+               if(result['code'] === 200){
+                   var data = result['data'];
+                   if(data.length > 0){
+                       var html = template('news-item',{'newses':data});
+                       var ul = $(".list-inner-group");
+                       ul.append(html);
+                       self.p++;
+                   }else{
+                       btn.hide();
+                   }
+               }
+           }
+       })
+    });
+};
+
 
 // 静态文档渲染完成之后执行其他方法
 $(function(){
     var banner = new Banner();
     banner.run();
+    var index = new Index();
+    index.run();
 });
+
+
 
 // 练习
 // function Banner(){

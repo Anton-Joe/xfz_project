@@ -11,6 +11,7 @@ class NewsCategorySerializer(serializers.ModelSerializer):
 
 class NewsSerializer(serializers.ModelSerializer):
     category = NewsCategorySerializer()
+    # author跟上方的NewsCategorySerializer同理，文件在别处，就不展示
     author = AuthorSerializer()
 
     class Meta:
