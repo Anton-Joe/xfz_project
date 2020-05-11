@@ -56,8 +56,7 @@ def publish_comment(request):
         author = request.user
         comment = Comment.objects.create(content=content, news_id=news_id, news=news, author=author)
         comment_serializer = CommentSerializer(comment)
-        data = comment_serializer.data
-        return restful.result(data=data)
+        return restful.result(data=comment_serializer.data)
     else:
         return restful.params_error(message=form.get_errors())
 
