@@ -1,4 +1,5 @@
 {% extends 'base/front_base.html' %}
+{% load news_filters %}
 {% block title %}
     新闻详情页面
 {% endblock %}
@@ -10,12 +11,12 @@
         <div class="wrapper">
             <div class="main-content-wrapper">
                 <div class="news-wrapper">
-                    <h1 class="title">【小饭桌早报】京东618首日累计下单金额同比增长超80%；苏宁年中大促首日大数据：销售增长163%</h1>
+                    <h1 class="title">{{ news.title }}</h1>
                     <div class="news-info">
                         <div class="info-group">
-                            <span class="author">葫芦娃</span>
-                            <span class="pub-time">06月03日</span>
-                            <span class="category">热点</span>
+                            <span class="author">{{ news.author.username }}</span>
+                            <span class="pub-time">{{ news.pub_time | time_since }}</span>
+                            <span class="category">{{ news.category.name }}</span>
                         </div>
                         <div class="share-group">
                             <span>分享至：</span>
@@ -25,21 +26,9 @@
                         </div>
                     </div>
                     <article class="article">
-                        <img src="https://static-image.xfz.cn/1588213931_401.jpg" title="" alt="栏目名.jpg">
+                        <img src="{{ news.thumbnail }}" title="">
                         <span>
-                        淘宝搜索电动牙刷，售价从9.9元到2499元不等。
-
-不同于服装，电动牙刷属于极度标品，很难做出差异化，且制造结构非常简单，无非是电机、刷头、电池、模具，几乎不涉及高精尖的技术壁垒。
-
-那为什么不同产品的价格会相差上百倍？
-
-回答这个问题之前，我们可以先理清电动牙刷在中国的市场变化：2016年之前，飞利浦和欧乐B这两大品牌占据国内中高端市场的绝对份额，随后大批国内新品牌崛起抢占平价市场，才带动起整个电动牙刷供应链。
-
-然而即便同为国内品牌，不同的产品也有十几倍的价格差异。但现实情况是，相较于欧美国家40-50%的普及率，而中国只有5%左右，市场潜力大，品牌野蛮发展，价格战成了品牌快速获取尝鲜的用户的制胜法宝。
-
-这就造成了电动牙刷市场“有产品，无品牌”的局面，而且由于过度控制价格，很多卖家的毛利非常低，甚至是在亏钱卖，制造商反而成了整个产业链条中最挣钱的角色。
-
-而坚持不打价格战的高端品牌此刻也处于进退两难的境地，
+                       {{ news.content }}
                     </span>
                     </article>
 

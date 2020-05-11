@@ -145,6 +145,8 @@ Banner.prototype.listenPageControl = function(){
 function Index(){
     var self = this;
     self.p = 2;
+    self.category_id = 0;
+    self.loadMoreBtn = $("#load-more-btn");
     // 时间过滤器
     template.defaults.imports.timeSince = function(dateValue){
         var date = new Date(dateValue);
@@ -175,16 +177,48 @@ function Index(){
 Index.prototype.run = function(){
     var self = this;
     self.listenLoadMoreEvent();
+    self.listenCategorySwitchEvent();
 
 };
+
+Index.prototype.listenCategorySwitchEvent = function(){
+    var self = this;
+    var tabGroup = $('.list-tab');
+    tabGroup.children().click(function(){
+       var li = $(this);
+       var category_id = $(this).attr('data-category');
+       var page = 1;
+       xfzajax.get({
+           'url': '/news/list/',
+           'data':{
+               'category_id': category_id,
+               'p': page,
+           },
+           'success': function(result){
+               if(result['code']===200){
+                   var data = result['data'];
+                   var html = template('news-item',{'newses':data});
+                   var newsListGroup = $('.list-inner-group');
+                   newsListGroup.empty();
+                   newsListGroup.append(html);
+                   self.p = 2;
+                   self.category_id = category_id;
+                   li.addClass('active').siblings().removeClass('active');
+                   self.loadMoreBtn.show();
+               }
+           }
+       })
+    });
+};
+
 Index.prototype.listenLoadMoreEvent = function(){
     var self = this;
-    var btn = $("#load-more-btn");
-    btn.click(function(){
+    self.loadMoreBtn.click(function(){
        xfzajax.get({
            'url': '/news/list/',
            'data': {
-               'p': self.p
+               'p': self.p,
+               'category_id': self.category_id,
            },
            'success': function (result) {
                if(result['code'] === 200){
@@ -195,7 +229,7 @@ Index.prototype.listenLoadMoreEvent = function(){
                        ul.append(html);
                        self.p++;
                    }else{
-                       btn.hide();
+                       self.loadMoreBtn.hide();
                    }
                }
            }

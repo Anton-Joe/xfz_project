@@ -11,13 +11,13 @@
     {% verbatim %}
     {{ each newses news index }}
         <li>
-            <div class="thumbnail-group"><a href="#"><img src="{{ news.thumbnail }}"></a></div>
+            <div class="thumbnail-group"><a href="/news/{{ news.id }}"><img src="{{ news.thumbnail }}"></a></div>
             <div class="news-group">
-                <p class="title"><a href="#">{{ news.title }}</a></p>
+                <p class="title"><a href="/news/{{ news.id }}">{{ news.title }}</a></p>
                 <p class="desc">{{ news.desc }}</p>
                 <p class="more">
                     <span class="category">{{ news.category.name }}</span>
-                    <span class="pub-time">{{ news.pub_time | timeSince }}</span>
+                    <span class="pub-time">{{ news .pub_time | timeSince }}</span>
                     <span class="author">{{ news.author.username }}</span>
                 </p>
             </div>
@@ -46,16 +46,19 @@
                 </div>
                 <div class="list-outer-group">
                     <ul class="list-tab">
+                        <li data-category='0' class="active"><a href="javascript:void(0)">最新资讯</a></li>
                         {% for category in categories %}
-                            <li><a href="#">{{ category.name }}</a></li>
+                            <li data-category="{{ category.id }}"><a href="javascript:void(0)">{{ category.name }}</a></li>
                         {% endfor %}
                     </ul>
                     <ul class="list-inner-group">
                         {% for news in newses %}
                             <li>
-                                <div class="thumbnail-group"><a href="#"><img src="{{ news.thumbnail }}"></a></div>
+                                <div class="thumbnail-group">
+                                    <a href="{% url 'news:news_detail' news_id=news.pk %}"><img src="{{ news.thumbnail }}"></a>
+                                </div>
                                 <div class="news-group">
-                                    <p class="title"><a href="#">{{ news.title }}</a></p>
+                                    <p class="title"><a href="{% url 'news:news_detail' news_id=news.pk %}">{{ news.title }}</a></p>
                                     <p class="desc">{{ news.desc }}</p>
                                     <p class="more">
                                         <span class="category">{{ news.category.name }}</span>

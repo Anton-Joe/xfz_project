@@ -4,6 +4,7 @@ from .models import News, NewsCategory
 from .serializers import NewsSerializer
 from django.conf import settings
 from utils import restful
+from django.http import Http404
 import json
 # Create your views here.
 
@@ -24,14 +25,25 @@ def news_list(request):
     start = (page - 1) * settings.ONE_PAGE_NEWS_COUNT
     end = start + settings.ONE_PAGE_NEWS_COUNT
 
-    newses = News.objects.order_by('-pub_time')[start:end]
+    category_id = int(request.GET.get('category_id', 0))
+
+    if category_id == 0:
+        newses = News.objects.all()[start:end]
+    else:
+        newses = News.objects.filter(category__id=category_id)[start:end]
+
     serializer = NewsSerializer(newses, many=True)
     data = serializer.data
     return restful.result(data=data)
 
 
 def news_detail(request, news_id):
-    return render(request, 'news/news_detail.html')
+    try:
+        news = News.objects.get(pk=news_id)
+        return render(request, 'news/news_detail.html', context={'news': news})
+    except:
+        raise Http404
+
 
 
 def search(request):
