@@ -26,4 +26,6 @@ class Comment(models.Model):
     news = models.ForeignKey('News', on_delete=models.CASCADE, related_name='comments')
     author = models.ForeignKey('xfzauth.User', on_delete=models.CASCADE)
 
+    class Meta:
+        ordering = ['-pub_time']
 

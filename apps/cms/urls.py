@@ -12,4 +12,5 @@ urlpatterns = [
     path('delete_news_category/', views.delete_news_category, name='delete_news_category'),
     path('upload_file/', views.upload_file, name='upload_file'),
     path('write_news/', views.WriteNewsView.as_view(), name='write_news'),
+    path('banners/', views.banners, name='banners'),
 ]

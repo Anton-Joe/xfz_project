@@ -101,3 +101,7 @@ def upload_file(request):
             fp.write(chunk)
     url = request.build_absolute_uri(settings.MEDIA_URL + name)
     return restful.result(data={'url': url})
+
+
+def banners(request):
+    return render(request, 'cms/banners.html')

@@ -5,6 +5,7 @@ from django.conf import settings
 from utils import restful
 from django.http import Http404
 from .forms import PublicCommentForm
+from ..xfzauth.decorators import xfz_login_required
 
 
 def index(request):
@@ -37,7 +38,7 @@ def news_list(request):
 
 def news_detail(request, news_id):
     try:
-        news = News.objects.select_related('category', 'author').get(pk=news_id)
+        news = News.objects.select_related('category', 'author').prefetch_related('comments__author').get(pk=news_id)
         return render(request, 'news/news_detail.html', context={'news': news})
     except:
         raise Http404
@@ -47,6 +48,7 @@ def search(request):
     return render(request, 'search/search_index.html')
 
 
+@xfz_login_required
 def publish_comment(request):
     form = PublicCommentForm(request.POST)
     if form.is_valid():

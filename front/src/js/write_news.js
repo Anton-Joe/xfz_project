@@ -65,7 +65,7 @@ NEWS.prototype.listenUploadFileEvent = function(){
        })
 
     });
-}
+};
 
 $(function () {
     var news = new NEWS();
