@@ -16,7 +16,15 @@ Banners.prototype.listenAddBannerEvent = function(){
         bannerListGroup.prepend(tpl);
 
         var bannerItem = bannerListGroup.find(".banner-item:first");
-        self.addImageSelectEvent(bannerItem)
+        self.addImageSelectEvent(bannerItem);
+        self.addRemoveBannerEvent(bannerItem);
+    });
+};
+
+Banners.prototype.addRemoveBannerEvent = function(bannerItem){
+    var closeBtn = $('.close-item');
+    closeBtn.click(function(){
+       bannerItem.remove();
     });
 };
 
