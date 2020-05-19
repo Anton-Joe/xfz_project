@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce316f9-009b-4759-bc02-9e56fe1674ce" name="Default Changelist" comment="后台管理-轮播图管理-数据库层面-轮播图完成">
-      <change afterPath="$PROJECT_DIR$/front/templates/cms/news_list.html" afterDir="false" />
+    <list default="true" id="fce316f9-009b-4759-bc02-9e56fe1674ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/cms/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/news_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="132">
+              <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="437">
+              <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -165,8 +163,8 @@
         <option value="$PROJECT_DIR$/front/src/js/banners.js" />
         <option value="$PROJECT_DIR$/front/templates/cms/base.html" />
         <option value="$PROJECT_DIR$/apps/cms/urls.py" />
-        <option value="$PROJECT_DIR$/apps/cms/views.py" />
         <option value="$PROJECT_DIR$/front/templates/cms/news_list.html" />
+        <option value="$PROJECT_DIR$/apps/cms/views.py" />
       </list>
     </option>
   </component>
@@ -358,7 +356,7 @@
       <workItem from="1589283342049" duration="6760000" />
       <workItem from="1589297964340" duration="939000" />
       <workItem from="1589299174543" duration="344000" />
-      <workItem from="1589862061379" duration="19008000" />
+      <workItem from="1589862061379" duration="19579000" />
     </task>
     <task id="LOCAL-00001" summary="1.静态模板改成django模板&#10;2.使用ajax发送登录请求">
       <created>1588757323025</created>
@@ -542,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589892270000</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="后台管理-新闻列表管理-无数据仅展示-分页展示ok">
+      <created>1589897638573</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589897638573</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205006000" />
+    <option name="totallyTimeSpent" value="205577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +618,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加js文件，添加上一次commit未选中的文件" />
     <MESSAGE value="登录/注册按钮：用户登录后显示为用户名，鼠标悬停时有列表选项" />
     <MESSAGE value="添加图片验证码的生产，以及“点击图片更换验证码”功能" />
     <MESSAGE value="使用阿里云发送短信，还未集成到网站，测试可以发送成功" />
@@ -638,7 +642,8 @@
     <MESSAGE value="后台管理-轮播图管理-轮播图关闭按钮页面效果完成" />
     <MESSAGE value="后台管理-轮播图管理-数据库层面-保存轮播图，删除轮播图基本完成" />
     <MESSAGE value="后台管理-轮播图管理-数据库层面-轮播图完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台管理-轮播图管理-数据库层面-轮播图完成" />
+    <MESSAGE value="后台管理-新闻列表管理-无数据仅展示-分页展示ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台管理-新闻列表管理-无数据仅展示-分页展示ok" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/front/src/css/common/auth.scss">
@@ -1001,20 +1006,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
+    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="437">
+          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

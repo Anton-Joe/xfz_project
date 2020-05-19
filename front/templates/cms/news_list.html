@@ -74,6 +74,7 @@
                 </table>
             </div>
             <div class="box-footer">
+                <p class="pull-left">第 {{ current_page }} / 总共 {{ num_pages }} 页</p>
                 <ul class="pagination pull-right">
                     {#上一页#}
                     {% if page_obj.has_previous %}

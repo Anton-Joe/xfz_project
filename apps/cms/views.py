@@ -57,7 +57,9 @@ class NewsListView(View):
         context_data = self.get_pagination_data(paginator, page_pbj)
         context = {
             'categories': categories,
-            'newses': page_pbj.object_list
+            'newses': page_pbj.object_list,
+            'page_obj': page_pbj,
+            'paginator': paginator,
         }
         context.update(context_data)
         return render(request, 'cms/news_list.html', context=context)
