@@ -17,4 +17,5 @@ urlpatterns = [
     path('banner_list/', views.banner_list, name='banner_list'),
     path('delete_banner/', views.delete_banner, name='delete_banner'),
     path('edit_banner/', views.edit_banner, name='edit_banner'),
+    path('news_list/', views.NewsListView.as_view(), name='news_list'),
 ]
