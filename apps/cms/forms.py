@@ -20,3 +20,11 @@ class AddBannerForm(forms.ModelForm, FormMixin):
     class Meta:
         model = Banner
         fields = ('priority', 'image_url', 'link_to')
+
+
+class EditBannerForm(forms.ModelForm, FormMixin):
+    pk = forms.IntegerField()
+
+    class Meta:
+        model = Banner
+        fields = ('priority', 'image_url', 'link_to')

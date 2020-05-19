@@ -27,21 +27,28 @@ Banners.prototype.LoadData = function(){
 Banners.prototype.listenAddBannerEvent = function(){
     var self = this;
     var btn = $('#add-banner-btn');
+
     btn.click(function(){
+        var bannerListGroup = $('.banner-list-group');
+        var bannerItems = bannerListGroup.children().length;
+        if(bannerItems>=6){
+            window.messageBox.showInfo("最多只能添加六张录播图");
+            return ;
+        }
         self.createBannerItem();
     });
 };
 
 Banners.prototype.createBannerItem = function(banner){
     var self = this;
+    var tpl = template('banner-item',{"banner":banner});
     var bannerListGroup = $('.banner-list-group');
+
     var bannerItem = null;
     if(banner){
-        var tpl = template('banner-item',{"banner":banner});
         bannerListGroup.append(tpl);
-        bannerItem = bannerListGroup.find(".banner-item:first");
+        bannerItem = bannerListGroup.find(".banner-item:last");
     }else{
-        var tpl = template('banner-item');
         bannerListGroup.prepend(tpl);
         bannerItem = bannerListGroup.find(".banner-item:first");
     }
@@ -57,21 +64,36 @@ Banners.prototype.addBannerSaveEvent = function(bannerItem){
     var priorityTag = bannerItem.find("input[name='priority']");
     var linkToTag = bannerItem.find("input[name='link_to']");
     var span = bannerItem.find('.priority');
+    var bannerId = bannerItem.attr('data-banner-id');
+    var url = null;
     saveBtn.click(function(){
+        console.log("clicked save......");
         var image_url = imageTag.attr("src");
         var priority = priorityTag.val();
         var link_to = linkToTag.val();
+        if(bannerId){
+            url = '/cms/edit_banner/';
+        }else {
+            url = '/cms/add_banner/';
+        }
         xfzajax.post({
-            'url': '/cms/add_banner/',
+            'url': url,
             'data':{
                 'image_url':image_url,
                 'link_to': link_to,
                 'priority': priority,
+                'pk': bannerId,
             },
             'success': function(result){
                 if(result['code'] === 200){
-                    var banner_id = result['data']['banner_id'];
-                    console.log(banner_id)
+                    if(bannerId){
+                        window.messageBox.showSuccess("修改成功！");
+                    }else{
+                        var banner_id2 = result['data']['banner_id'];
+                        window.messageBox.showSuccess("添加成功！");
+                        bannerItem.attr('data-banner-id',banner_id2);
+                    }
+                    span.text("优先级："+ priority);
                 }
             }
         })
@@ -80,8 +102,9 @@ Banners.prototype.addBannerSaveEvent = function(bannerItem){
 
 Banners.prototype.addRemoveBannerEvent = function(bannerItem){
     var closeBtn = bannerItem.find('.close-item');
-    var bannerId = bannerItem.attr("data-banner-id");
     closeBtn.click(function(){
+        console.log("clicked remove......");
+        var bannerId = bannerItem.attr("data-banner-id");
         if(bannerId){
             xfzalert.alertConfirm({
                 'text': '您确定要删除这个轮播图吗？',
