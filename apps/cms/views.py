@@ -2,11 +2,12 @@ from django.shortcuts import render
 from django.contrib.admin.views.decorators import staff_member_required
 from django.views.generic import View
 from django.views.decorators.http import require_GET, require_POST
-from ..news.models import NewsCategory, News
+from ..news.models import NewsCategory, News, Banner
 from utils import restful
-from .forms import EditNewsCategoryForm, WriteNewsForm
+from .forms import EditNewsCategoryForm, WriteNewsForm, AddBannerForm
 import os
 from django.conf import settings
+from ..news.serializers import BannerSerializer
 # Create your views here.
 
 app_name = 'cms'
@@ -40,9 +41,6 @@ class WriteNewsView(View):
             return restful.ok()
         else:
             return restful.params_error(message=form.get_errors())
-
-
-
 
 
 @require_GET
@@ -105,3 +103,28 @@ def upload_file(request):
 
 def banners(request):
     return render(request, 'cms/banners.html')
+
+
+def add_banner(request):
+    form = AddBannerForm(request.POST)
+    if form.is_valid():
+        priority = form.cleaned_data.get('priority')
+        image_url = form.cleaned_data.get('image_url')
+        link_to = form.cleaned_data.get('link_to')
+        banner = Banner.objects.create(priority=priority, image_url=image_url, link_to=link_to)
+        return restful.result(data={'banner_id': banner.pk})
+    else:
+        return restful.params_error(message=form.get_errors())
+
+
+def banner_list(request):
+    banners = Banner.objects.all()
+    serializer = BannerSerializer(banners, many=True)
+    return restful.result(data=serializer.data)
+
+
+def delete_banner(request):
+    banner_id = request.POST.get('banner_id')
+    print(banner_id)
+    Banner.objects.filter(pk=banner_id).delete()
+    return restful.ok()

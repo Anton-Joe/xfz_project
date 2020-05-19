@@ -1,6 +1,6 @@
 from django import forms
 from ..forms import FormMixin
-from ..news.models import News
+from ..news.models import News, Banner
 
 
 class EditNewsCategoryForm(forms.Form, FormMixin):
@@ -15,3 +15,8 @@ class WriteNewsForm(forms.ModelForm, FormMixin):
         model = News
         exclude = ['pub_time', 'category', 'author']
 
+
+class AddBannerForm(forms.ModelForm, FormMixin):
+    class Meta:
+        model = Banner
+        fields = ('priority', 'image_url', 'link_to')

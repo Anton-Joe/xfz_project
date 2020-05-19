@@ -51,9 +51,17 @@
 <div class="banner-list-group"></div>
 <script id="banner-item" type="text/html">
 {% verbatim %}
+{{ if banner }}
+<div class="box banner-item" data-banner-id="{{ banner.id }}">
+{{ else }}
 <div class="box banner-item">
+{{ /if }}
     <div class="box-header">
-        <span>位置：0</span>
+        {{ if banner }}
+        <span class="priority">优先级：{{ banner.priority }}</span>
+        {{ else }}
+        <span class="priority">优先级：0</span>
+        {{ /if }}
         <button class="btn btn-default btn-xs pull-right close-item">
             <i class="fa fa-close"></i>
         </button>
@@ -61,19 +69,31 @@
     <div class="box-body" >
         <div class="thumbnail-group">
             <input type="file" style="display: none;" class="image-input">
+            {{ if banner }}
+            <img src="{{ banner.image_url }}" alt="" class="thumbnail">
+            {{ else }}
             <img src="" alt="" class="thumbnail">
+            {{ /if }}
         </div>
         <div class="more-group">
             <div class="form-group">
-                <input type="number" class="form-control" name="position">
+                {{ if banner }}
+                <input type="number" class="form-control" name="priority" value="{{ banner.priority }}">
+                {{ else }}
+                <input type="number" class="form-control" name="priority">
+                {{ /if }}
             </div>
             <div class="form-group">
+                {{ if banner }}
+                <input type="text" class="form-control" name="link_to" value="{{ banner.link_to }}">
+                {{ else }}
                 <input type="text" class="form-control" name="link_to">
+                {{ /if }}
             </div>
         </div>
     </div>
     <div class="box-footer">
-        <button class="btn btn-primary pull-right">保存</button>
+        <button class="btn btn-primary pull-right save-btn">保存</button>
     </div>
 </div>
 {% endverbatim %}
