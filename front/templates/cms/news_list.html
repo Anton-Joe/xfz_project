@@ -1,6 +1,10 @@
 {% extends 'cms/base.html' %}
 
 {% block head %}
+    <link rel="stylesheet" href="{% static 'adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css' %}">
+    <script src="{% static 'adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js' %}"></script>
+    <script src="{% static 'js/news_list.min.js' %}"></script>
     <style>
     .left-group{
         margin-right: 20px;
@@ -21,9 +25,9 @@
                 <form action="" class="form-inline">
                     <div class="form-group left-group">
                         <label for="">时间：</label>
-                        <input type="text" name="start" class="form-control" readonly>
+                        <input type="text" name="start" class="form-control" id="start-picker" readonly>
                         <span>-</span>
-                        <input type="text" name="end" class="form-control" readonly>
+                        <input type="text" name="end" class="form-control" id="end-picker" readonly>
                     </div>
                     <div class="form-group left-group">
                         <label for="title-input">标题：</label>
