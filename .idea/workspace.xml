@@ -2,288 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce316f9-009b-4759-bc02-9e56fe1674ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/build/build.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/build/build3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/build/build_standalone.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/build/build_standalone3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/demo_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/markup_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/markup_daterange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/markup_inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/markup_input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_calendarweeks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_clearbtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_daysofweekdisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_enddate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_language.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_multidate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_startdate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_todaybtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_todayhighlight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/option_weekstart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/script/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/script/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/script/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/script/html-imports.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_screenshots/script/screenshot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/demo_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/markup_component.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/markup_daterange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/markup_inline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/markup_input.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_calendarweeks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_clearbtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_daysofweekdisabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_enddate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_language.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_multidate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_startdate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_todaybtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_todayhighlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_weekstart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/events.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/i18n.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/keyboard.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/markup.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/methods.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/options.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/docs/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/grunt/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker-en-CA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-AU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-IE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-NZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.it-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.kh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.tg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.uz-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.uz-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/less/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/less/datepicker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/less/datepicker3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/coverage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/qunit-logging.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/qunit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/qunit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/assets/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/calendar-weeks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/data-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/inline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/keyboard_navigation/2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/keyboard_navigation/2012.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/keyboard_navigation/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/methods_jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/mouse_navigation/2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/mouse_navigation/2012.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/mouse_navigation/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/noconflict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/timezone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/suites/touch_navigation/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/tests/timezone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap-datepicker/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/js/banners.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/dist/js/news_detail.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/js/news_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/news_list.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/templates/cms/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/news_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -297,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/js/news_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/news/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -327,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="334">
+              <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -337,9 +40,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xfz_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="361">
               <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -433,7 +145,6 @@
         <option value="$PROJECT_DIR$/apps/news/views.py" />
         <option value="$PROJECT_DIR$/front/src/js/write_news.js" />
         <option value="$PROJECT_DIR$/front/src/js/news_detail.js" />
-        <option value="$PROJECT_DIR$/xfz_project/settings.py" />
         <option value="$PROJECT_DIR$/xfz_project/urls.py" />
         <option value="$PROJECT_DIR$/apps/news/models.py" />
         <option value="$PROJECT_DIR$/apps/news/serializers.py" />
@@ -442,9 +153,10 @@
         <option value="$PROJECT_DIR$/front/src/js/banners.js" />
         <option value="$PROJECT_DIR$/front/templates/cms/base.html" />
         <option value="$PROJECT_DIR$/apps/cms/urls.py" />
+        <option value="$PROJECT_DIR$/front/src/js/news_list.js" />
+        <option value="$PROJECT_DIR$/xfz_project/settings.py" />
         <option value="$PROJECT_DIR$/apps/cms/views.py" />
         <option value="$PROJECT_DIR$/front/templates/cms/news_list.html" />
-        <option value="$PROJECT_DIR$/front/src/js/news_list.js" />
       </list>
     </option>
   </component>
@@ -462,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,33 +184,7 @@
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz_project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz_project" type="b2602c69:ProjectViewProjectNode" />
@@ -509,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -613,7 +299,8 @@
       <workItem from="1589299174543" duration="344000" />
       <workItem from="1589862061379" duration="19594000" />
       <workItem from="1589902614754" duration="1317000" />
-      <workItem from="1589904027698" duration="305000" />
+      <workItem from="1589904027698" duration="424000" />
+      <workItem from="1590041951196" duration="3883000" />
     </task>
     <task id="LOCAL-00001" summary="1.静态模板改成django模板&#10;2.使用ajax发送登录请求">
       <created>1588757323025</created>
@@ -811,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589897987671</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="后台管理-新闻列表管理-无数据仅展示-分页展示：时间选择使用datepicker">
+      <created>1589904422244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1589904422244</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207214000" />
+    <option name="totallyTimeSpent" value="211216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,12 +524,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2077748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.446959" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.26770538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.16572239" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -882,7 +576,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加图片验证码的生产，以及“点击图片更换验证码”功能" />
     <MESSAGE value="使用阿里云发送短信，还未集成到网站，测试可以发送成功" />
     <MESSAGE value="完成注册功能，完善xfzajax.js代码，更多的封装" />
     <MESSAGE value="用户点击管理系统，可进入后台管理系统首页：完成添加后台管理系统首页，但无内容，仅展示" />
@@ -907,7 +600,8 @@
     <MESSAGE value="后台管理-轮播图管理-数据库层面-轮播图完成" />
     <MESSAGE value="后台管理-新闻列表管理-无数据仅展示-分页展示ok" />
     <MESSAGE value="后台管理-新闻列表管理-无数据仅展示-分页展示ok 完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台管理-新闻列表管理-无数据仅展示-分页展示ok 完善" />
+    <MESSAGE value="后台管理-新闻列表管理-无数据仅展示-分页展示：时间选择使用datepicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台管理-新闻列表管理-无数据仅展示-分页展示：时间选择使用datepicker" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/front/templates/cms/index.html">
@@ -1157,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xfz_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
-          <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xfz_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1246,6 +933,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/news_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/news/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1253,19 +947,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="361">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -1273,17 +957,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
+    <entry file="file://$PROJECT_DIR$/xfz_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="334">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/news_list.js">
+    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="334">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/news_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
         </state>
       </provider>
     </entry>

@@ -22,23 +22,43 @@
     <div class="col-md-12">
         <div class="box">
             <div class="box-header">
-                <form action="" class="form-inline">
+                <form action="" method="get" class="form-inline">
                     <div class="form-group left-group">
                         <label for="">时间：</label>
-                        <input type="text" name="start" class="form-control" id="start-picker" readonly>
+                        {% if start %}
+                            <input type="text" name="start" class="form-control" id="start-picker" readonly value="{{ start }}">
+                        {% else %}
+                            <input type="text" name="start" class="form-control" id="start-picker" readonly>
+                        {% endif %}
                         <span>-</span>
-                        <input type="text" name="end" class="form-control" id="end-picker" readonly>
+                        {% if end %}
+                            <input type="text" name="end" class="form-control" id="end-picker" readonly value="{{ end }}">
+                        {% else %}
+                            <input type="text" name="end" class="form-control" id="end-picker" readonly>
+                        {% endif %}
                     </div>
                     <div class="form-group left-group">
                         <label for="title-input">标题：</label>
-                        <input type="text" class="form-control" name="title" id="title-input" placeholder="标题关键字">
+                        {% if title %}
+                            <input type="text" class="form-control" name="title" id="title-input" placeholder="标题关键字">
+                        {% else %}
+                            <input type="text" class="form-control" name="title" id="title-input" placeholder="标题关键字" value="{{ title }}">
+                        {% endif %}
                     </div>
                     <div class="form-group left-group">
                         <label for="category-input">分类：</label>
                         <select name="category" id="" class="form-control">
+                            {% if category_id == 0%}
+                                <option value="0" selected>所有分类</option>
+                            {% else%}
+                                <option value="0" selected>所有分类</option>
+                            {% endif %}
                             {% for category in categories %}
-                                <option value="0">所有分类</option>
-                                <option value="{{ category.pk }}">{{ category.name }}</option>
+                                {% if category_id == category.pk %}
+                                    <option value="{{ category.pk }}" selected>{{ category.name }}</option>
+                                {% else %}
+                                    <option value="{{ category.pk }}">{{ category.name }}</option>
+                                {% endif %}
                             {% endfor %}
                         </select>
                     </div>
@@ -46,7 +66,7 @@
                         <button class="btn btn-primary">查询</button>
                     </div>
                     <div class="form-group">
-                        <a href="{% url 'cms:news_list' %}">清楚条件</a>
+                        <a href="{% url 'cms:news_list' %}">清除条件</a>
                     </div>
                 </form>
             </div>

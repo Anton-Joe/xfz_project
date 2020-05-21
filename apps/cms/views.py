@@ -9,6 +9,9 @@ import os
 from django.conf import settings
 from ..news.serializers import BannerSerializer
 from django.core.paginator import Paginator
+from datetime import datetime
+from django.utils.timezone import make_aware
+from urllib import parse
 # Create your views here.
 
 app_name = 'cms'
@@ -49,7 +52,29 @@ class NewsListView(View):
         categories = NewsCategory.objects.all()
 
         page = int(request.GET.get('p', 1))
-        newses = News.objects.select_related('category', 'author').all()
+        newses = News.objects.select_related('category', 'author')
+
+        start = request.GET.get('start')
+        end = request.GET.get('end')
+        title = request.GET.get('title')
+        category_id = int(request.GET.get('category', 0) or 0)
+
+        if start or end:
+            if start:
+                start_date = datetime.strptime(start, "%Y/%m/%d")
+            else:
+                start_date = datetime(year=2018, month=9, day=1)
+            if end:
+                end_date = datetime.strptime(end, "%Y/%m/%d")
+            else:
+                end_date = datetime.today()
+            newses = newses.filter(pub_time__range=(make_aware(start_date), make_aware(end_date)))
+
+        if title:
+            newses = newses.filter(title__icontains=title)
+
+        if category_id:
+            newses = newses.filter(category_id=category_id)
 
         paginator = Paginator(newses, 2)
         page_pbj = paginator.page(page)
@@ -60,6 +85,16 @@ class NewsListView(View):
             'newses': page_pbj.object_list,
             'page_obj': page_pbj,
             'paginator': paginator,
+            'start': start,
+            'end': end,
+            'category_id': category_id,
+            'title': title or '',
+            'url_query': '&' + parse.urlencode({
+                'start': start or '',
+                'end': end or '',
+                'title': title or '',
+                'category': category_id or '',
+            })
         }
         context.update(context_data)
         return render(request, 'cms/news_list.html', context=context)
